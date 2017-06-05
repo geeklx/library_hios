@@ -5,9 +5,10 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Toast;
 
-import com.example.p022_hois.R;
+import com.example.library_hios.R;
 
-public class TwoMainActivity extends AppCompatActivity {
+
+public class DemoTwoMainActivity extends AppCompatActivity {
 
     private String mAlertSkuId;
 

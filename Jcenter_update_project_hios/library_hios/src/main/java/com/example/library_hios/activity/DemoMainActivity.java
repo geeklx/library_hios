@@ -1,16 +1,15 @@
-package com.example.library_hios;
+package com.example.library_hios.activity;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
-import com.example.library_hios.activity.TwoMainActivity;
-import com.example.library_hios.activity.WebViewMainActivity;
+import com.example.library_hios.R;
 import com.example.library_hios.hioscommon.AdListItem;
 import com.example.library_hios.hoisjump.HiosHelper;
 
 
-public class MainActivity extends AppCompatActivity {
+public class DemoMainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
 //                adListItem.setUrl("hios://jump.twomainactivity");
 //                hios://com.haiersmart.sfnation.ui.ec.ShopIndexActivity?act={i}1&sku_id={s}341703311759500256
                 adListItem.setUrl("hios://jump.twomainactivity?sku_id={s}1000252");//带参数
-                HiosHelper.click(MainActivity.this, TwoMainActivity.class, adListItem);// 第一个是当前Activity 第二个是Fragment
+                HiosHelper.click(DemoMainActivity.this, DemoTwoMainActivity.class, adListItem);// 第一个是当前Activity 第二个是Fragment
             }
         });
 
@@ -39,8 +38,8 @@ public class MainActivity extends AppCompatActivity {
                 adListItem.setAid("1");
                 adListItem.setBanner("imgUrl");
                 adListItem.setUrl("");
-                HiosHelper.configWebActivity(WebViewMainActivity.class);
-                HiosHelper.click(MainActivity.this, adListItem);//
+                HiosHelper.configWebActivity(DemoWebViewMainActivity.class);
+                HiosHelper.click(DemoMainActivity.this, adListItem);//
             }
         });
 

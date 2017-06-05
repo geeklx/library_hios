@@ -10,13 +10,6 @@ import java.util.Set;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-/**
- * <p>function: </p>
- * <p>description:  </p>
- * <p>history:  1. 2016/11/17</p>
- * <p>Author: qibin</p>
- * <p>modification:</p>
- */
 public class UriHelper {
     public static final String REGEXP = "^\\{([byoilfds]{1})\\}(.+)$";
 

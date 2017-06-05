@@ -3,11 +3,7 @@ package com.example.library_hios.application;
 import android.app.Application;
 import android.content.Context;
 
-import com.example.p022_hois.hioscommon.HiosRegister;
-
-/**
- * Created by shining on 2017/6/2 0002.
- */
+import com.example.library_hios.hioscommon.HiosRegister;
 
 public class DemoApplication extends Application {
     private static final String TAG = "DemoApplication";

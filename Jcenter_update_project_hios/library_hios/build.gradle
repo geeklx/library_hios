@@ -34,9 +34,9 @@ dependencies {
 //添加
 publish {
     userOrg = 'geeklx'//bintray.com用户名
-    groupId = 'com.hyman'//jcenter上的路径
+    groupId = 'com.geeklx'//jcenter上的路径
     artifactId = 'library_hios'//项目名称
-    publishVersion = '1.0.0'//版本号
+    publishVersion = '1.0.1'//版本号
     desc = 'Oh hi, this is a nice description for a project, right?'//描述，不重要
-    website = 'https://github.com/hyman/basetools'//网站，不重要；尽量模拟github上的地址，例如我这样的；当然你有地址最好了
+    website = 'https://github.com/geeklx/library_hios/tree/master/Jcenter_update_project_hios'//网站，不重要；尽量模拟github上的地址，例如我这样的；当然你有地址最好了
 }

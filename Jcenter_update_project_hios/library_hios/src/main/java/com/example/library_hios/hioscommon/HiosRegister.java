@@ -9,8 +9,8 @@ public class HiosRegister {
 
     public static void load() {
 
-        HiosAlias.register("jump.twomainactivity", PKG_SFNATION, ".activity.TwoMainActivity");
-        HiosAlias.register("jump.webviewmainactivity", PKG_SFNATION, ".activity.WebViewMainActivity");
+        HiosAlias.register("jump.twomainactivity", PKG_SFNATION, ".activity.DemoTwoMainActivity");
+        HiosAlias.register("jump.webviewmainactivity", PKG_SFNATION, ".activity.DemoWebViewMainActivity");
 
     }
 }

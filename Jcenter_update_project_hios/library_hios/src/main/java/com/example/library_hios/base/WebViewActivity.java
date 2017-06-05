@@ -21,11 +21,6 @@ import android.widget.TextView;
 import com.example.library_hios.R;
 import com.example.library_hios.hoisjump.HiosHelper;
 
-
-/**
- * Created by qibin on 2016/8/13.
- */
-
 public class WebViewActivity extends AppCompatActivity implements View.OnClickListener {
 
     private View mBackImageView;

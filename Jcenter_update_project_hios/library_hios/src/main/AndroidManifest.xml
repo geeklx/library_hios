@@ -14,15 +14,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".activity.DemoMainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".activity.TwoMainActivity" />
-        <activity android:name=".activity.WebViewMainActivity" />
+        <activity android:name=".activity.DemoTwoMainActivity" />
+        <activity android:name=".activity.DemoWebViewMainActivity" />
     </application>
 
 </manifest>

@@ -1,8 +1,5 @@
 package com.example.library_hios.hioscommon;
 
-/**
- * Created by geek on 2016/10/27.
- */
 
 public class AdListItem {
     private String banner;

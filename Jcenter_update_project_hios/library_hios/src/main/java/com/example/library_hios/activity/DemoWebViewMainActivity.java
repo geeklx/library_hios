@@ -6,7 +6,7 @@ import android.text.TextUtils;
 import com.example.library_hios.base.WebViewActivity;
 
 
-public class WebViewMainActivity extends WebViewActivity {
+public class DemoWebViewMainActivity extends WebViewActivity {
 
     private String url;
 

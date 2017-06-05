@@ -11,7 +11,6 @@ import android.text.TextUtils;
 import android.util.Log;
 import android.util.Pair;
 
-import com.example.library_hios.application.DemoApplication;
 import com.example.library_hios.hioscommon.AdListItem;
 
 import java.lang.reflect.Method;
@@ -96,7 +95,7 @@ public class HiosHelper {
 
             // when host is class name
             if (host.startsWith(".")) {
-                host = DemoApplication.get().getPackageName() + host;
+                host = activity.getApplication().getPackageName() + host;// DemoApplication.get().getPackageName()
             }
 
             activity(activity, uri, host);

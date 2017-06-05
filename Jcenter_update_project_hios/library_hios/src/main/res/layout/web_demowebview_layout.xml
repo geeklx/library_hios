@@ -4,7 +4,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <include layout="@layout/web_web_toolbar" />
+    <include layout="@layout/web_demoweb_toolbar" />
 
     <LinearLayout
         android:id="@+id/container"

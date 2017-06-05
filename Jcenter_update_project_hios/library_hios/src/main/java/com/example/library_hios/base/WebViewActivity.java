@@ -36,7 +36,7 @@ public class WebViewActivity extends AppCompatActivity implements View.OnClickLi
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.web_webview_layout);
+        setContentView(R.layout.web_demowebview_layout);
         findview();
         mUrl = getIntent().getStringExtra("url");
         setup();
